@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap");
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url("background.gif");
+    background-size: cover;
+}
+
+
+.headerBACKGROUND {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerBACKGROUND h1{
+    color: #FFFFFF;
+    font-size: 30px;
+    animation: beat 0.5s infinite alternate ease;
+    transform-origin: center;
+}
+
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
+
+.gradingsystem_IMG {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+
+.floatingBOX {
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+    position: relative;
+}
+
+
+.gradingSYSTEM-BOX {
+    width: 42%;
+    height: 500px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 9%;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 30px gainsboro;
+    
+}
+
+.gradingSYSTEM-BOX h2 {
+    text-align: center;
+}
+
+.gradingSYSTEM-BOX form input {
+    display: block;
+    width: 50%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-bottom: 1px solid #666;
+    padding: 10px;
+    margin-left: 5%;
+    transition: border-color .2s;
+}
+
+.focus::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.focus:focus {
+    border-bottom-color: #ddd;
+}
+
+.gradingSYSTEM-BOX .resetButton {
+    position: absolute;
+    bottom: 60%;
+    left: 38%;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    transition: 0.5s ease;
+    background-color: transparent;
+}
+
+.gradingSYSTEM-BOX .resetButton:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+.gradingSYSTEM-BOX .calculateButton {
+    position: absolute;
+    bottom: 41%;
+    left: 38%;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    transition: 0.5s ease;
+    background-color: transparent;
+}
+
+.gradingSYSTEM-BOX .calculateButton:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.resultBOX {
+    width: 31%;
+    height: 500px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 8%;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 30px gainsboro;
+}
+
+.resultBOX h2 {
+    text-align: center;
+}
+
+.resultBOX p {
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 4%;
+    font-weight: bold;
+    color: red;
+}
+
+.resultBOX p span {
+    color: black;
+}
+
+
+

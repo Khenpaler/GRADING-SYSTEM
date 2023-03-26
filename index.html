@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>GRADING SYSTEM</title>
+
+    <!-- FONTS IN MY SITE -->
+    <link rel="preconnect " href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="js/calculate.js"></script>
+    <script type="text/javascript" src="js/reset.js"></script>
+
+</head>
+
+<body>
+
+    <section class="headerBACKGROUND">
+            <h1>GRADING SYSTEM - JAVASCRIPT</h1>
+    </section>
+
+    <section class="gradingsystem_IMG">
+        <img src="pictures/gradingsystem_IMG.PNG" alt="">
+    </section>
+
+    <section class="floatingBOX">
+        <div class="gradingSYSTEM-BOX">
+            <h2>Grading System Calculator</h2>
+
+            <form action="">
+                <input class="focus" type="number" min="0" max="100" id="subject1" placeholder="Information Management" required>
+                <input class="focus" type="number" min="0" max="100" id="subject2" placeholder="Networking 1" required>
+                <input class="focus" type="number" min="0" max="100" id="subject3" placeholder="Web Systems and Technlogies" required>
+                <input class="focus" type="number" min="0" max="100" id="subject4" placeholder="Systems Integration and Architecture" required>
+                <input class="focus" type="number" min="0" max="100" id="subject5" placeholder="Ethics" required>
+                <input class="focus" type="number" min="0" max="100" id="subject6" placeholder="Life and Works of Rizal" required>
+                <input class="focus" type="number" min="0" max="100" id="subject7" placeholder="PATHFIT 4" required>
+            </form>
+
+                <button class="calculateButton" type="button" onclick="calculateGrade()" >Calculate</button>
+                <button class="resetButton" type="button" onclick="resetButton()">Reset</button>
+        </div>
+
+        <div class="resultBOX">
+            <h2>Result</h2>
+            <p id="result"></p>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
