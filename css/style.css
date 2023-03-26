@@ -151,11 +151,11 @@ body {
     margin-top: 15%;
     margin-left: 4%;
     font-weight: bold;
-    color: red;
+    color: black;
 }
 
 .resultBOX p span {
-    color: black;
+    color: red;
 }
 
 

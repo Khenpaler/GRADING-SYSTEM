@@ -15,6 +15,7 @@ function calculateGrade()
   // Determine the descriptor and remarks based on the average grade
   let descriptor = "";
   let remarks = "";
+  
   if (averageGrade > 100) {
     descriptor = "DOES NOT EXIST";
     remarks = "DOES NOT EXIST";
@@ -34,12 +35,13 @@ function calculateGrade()
     descriptor = "DID NOT MEET EXPECTATIONS";
     remarks = "FAILED";
   } else {
+    averageGrade= "";
+    descriptor = "";
+    remarks = "";
     alert('please Enter Your marks, Then click Calculate button');
   }
-  // Display the result to the user , &nbsp; is used to add spaces
-  document.getElementById("result").innerHTML = 
-  `<span>Total Grade:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${averageGrade.toFixed(2)}
-  <br><br><span>Descriptor:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ${descriptor}
-  <br><br> <span>Remarks:</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    ${remarks}`;
+
+  document.getElementById("result").innerHTML =`${averageGrade.toFixed(2)}`;
+  document.getElementById("descriptor").innerHTML =`${descriptor}`;
+  document.getElementById("remarks").innerHTML = `${remarks}`;
 }
