@@ -1,18 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap");
 
+/*Settings for All*/
 * {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-
+/*Settings for the body*/
 body {
     background: url("background.gif");
     background-size: cover;
 }
 
 
+/*For the header*/
 .headerBACKGROUND {
     margin: auto;
     width: 100%;
@@ -32,6 +34,8 @@ body {
 	to { transform: scale(1.1); }
 }
 
+
+/*For the grading system image*/
 .gradingsystem_IMG {
     position: relative;
     align-items: center;
@@ -39,7 +43,9 @@ body {
 }
 
 
-.floatingBOX {
+
+/*Container for the grading system box*/
+.container {
     width: 100%;
     display: flex;
     margin-top: 3%;
@@ -47,6 +53,7 @@ body {
 }
 
 
+/*This is for the Grading System Calculator*/
 .gradingSYSTEM-BOX {
     width: 42%;
     height: 500px;
@@ -107,8 +114,6 @@ body {
     cursor: pointer;
 }
 
-
-
 .gradingSYSTEM-BOX .calculateButton {
     position: absolute;
     bottom: 41%;
@@ -130,6 +135,8 @@ body {
 }
 
 
+
+/*This is for the result box*/
 .resultBOX {
     width: 31%;
     height: 400px;

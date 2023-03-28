@@ -15,23 +15,28 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    
+
+    <!-- JAVASCRIPTS -->
     <script type="text/javascript" src="js/calculate.js"></script>
     <script type="text/javascript" src="js/reset.js"></script>
 
 </head>
 
 <body>
-
+    <!-- HEADER -->
     <section class="headerBACKGROUND">
             <h1>GRADING SYSTEM - JAVASCRIPT</h1>
     </section>
 
+    <!-- GRADING SYSTEM IMAGE -->
     <section class="gradingsystem_IMG">
         <img src="pictures/gradingsystem_IMG.PNG" alt="">
     </section>
 
-    <section class="floatingBOX">
+    <!-- CONTAINER -->
+    <section class="container">
+
+        <!-- GRADING SYSTEM CALCULATOR -->
         <div class="gradingSYSTEM-BOX">
             <h2>Grading System Calculator</h2>
 
@@ -49,6 +54,7 @@
                 <button class="resetButton" type="button" onclick="resetButton()">Reset</button>
         </div>
 
+        <!-- RESULT BOX -->
         <div class="resultBOX" id="resultBOX">
             <h2>Result</h2>
             <p>Total Grade is &ensp;: <span id="averageGrade"></span></p>

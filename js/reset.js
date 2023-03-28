@@ -1,4 +1,6 @@
-function resetButton() {
+function resetButton() 
+{
+    // Removes the values from the following elements
     document.getElementById("subject1").value = "";
     document.getElementById("subject2").value = "";
     document.getElementById("subject3").value = "";
@@ -9,4 +11,4 @@ function resetButton() {
     document.getElementById("averageGrade").innerHTML = "";
     document.getElementById("descriptor").innerHTML = "";
     document.getElementById("remarks").innerHTML = "";
-  }
+}
