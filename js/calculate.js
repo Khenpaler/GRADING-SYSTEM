@@ -41,7 +41,7 @@ function calculateGrade()
     alert('please Enter Your marks, Then click Calculate button');
   }
 
-  document.getElementById("result").innerHTML =`${averageGrade.toFixed(2)}`;
+  document.getElementById("averageGrade").innerHTML =`${averageGrade.toFixed(2)}`;
   document.getElementById("descriptor").innerHTML =`${descriptor}`;
   document.getElementById("remarks").innerHTML = `${remarks}`;
 }

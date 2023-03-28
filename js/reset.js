@@ -6,5 +6,7 @@ function resetButton() {
     document.getElementById("subject5").value = "";
     document.getElementById("subject6").value = "";
     document.getElementById("subject7").value = "";
-    document.getElementById("result").innerHTML = "";
+    document.getElementById("averageGrade").innerHTML = "";
+    document.getElementById("descriptor").innerHTML = "";
+    document.getElementById("remarks").innerHTML = "";
   }
