@@ -1,3 +1,6 @@
+//Name: Khen Harold P. Paler
+//Section: IT2R5
+
 function calculateGrade() 
 {
   // Get the subject inputs from the user
